@@ -5,7 +5,7 @@ const { resolveAppPath } = require('../utils');
 const plugins = [
   new HtmlWebpackPlugin({
     inject: true,
-    template: resolveAppPath('public/index.html'),
+    template: resolveAppPath('src/index.html'),
   }),
   new MiniCssExtractPlugin({
     filename: 'css/[name].css',
